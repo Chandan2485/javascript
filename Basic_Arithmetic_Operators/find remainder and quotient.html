@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <pre>
+        Quotient and Remainder Of a Number
+        Take two numbers and find the quotient and remainder.
+        
+        Input:
+        Input are provided as functional parameter.
+        
+        Output:
+        Return comma seperated quotient and remainder.
+        
+        Eg 1:
+        
+        10
+        2
+        
+        output:
+        
+        5,0
+        
+        Eg 2:
+        
+        7
+        3
+        
+        output :
+        
+        2,1
+        
+        Note :- If you cannot divide the numbers then the output must be "-1,-1".
+    </pre>
+    <br><br><br>
+    <script>
+        function quo_rem(a, b) {
+            // Write your code here
+            //make sure you return the output string
+            if (a != 0 && b != 0) {
+                let q = Math.floor(a / b)
+                let r = a % b
+                return (q + "," + r)
+            }
+            else {
+                return (-1 + "," + -1)
+            }
+        }
+        document.write(quo_rem(0, 0))
+
+
+
+    </script>
+</body>
+
+</html>

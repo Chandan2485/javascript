@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <pre>
+        ake the cost price and selling price of a product, and print the profit obtained on the product.
+Input Format
+Two positive integer costPrice and sellingPrice is given as a function parameters.
+
+Output Format
+An integer
+
+Sample Input 1
+50 100
+Sample Output 1:
+50
+Explanation 1:
+100 - 50 = 50
+    </pre>
+    <script>
+        function profit(costPrice, sellingPrice) {
+            let pro = (sellingPrice - costPrice);
+            return pro
+        }
+        document.write('The profit is '+profit(50, 100))
+    </script>
+</body>
+
+</html>

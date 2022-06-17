@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Take two numbers a,b and print the exponential power of the first number raised by the second</h2>
+    <pre>
+Input:
+Two numbers - a,b
+Output:
+b^a
+
+Example:
+
+Input:
+2
+3
+
+Output:
+8
+
+Explanation:
+a = 2, b = 3;
+a^b = 2^3 = 8
+    </pre>
+    <br><br>
+    <script>
+        function exponentialOf(num1,num2) {
+            let exponential = num1**num2;
+            return exponential;
+        }
+
+        document.write('The output is '+exponentialOf(2,3))
+    </script>
+</body>
+</html>

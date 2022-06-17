@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <pre>
+        Take two numbers and only print the integer part when a is divided by b
+Input Format
+A two digit integer num is given as a function parameters.
+
+Input Constraints
+10 < a < 100
+Output Format
+An integer
+
+Sample Input 1
+32
+Sample Output 1:
+23
+Explanation 1:
+Reverse of 32 will be 23
+Sample Input 2
+94
+Sample Output 2
+49
+Explanation 2
+Reverse of 94 will be 49
+    </pre>
+    <br><br>
+
+    <script>
+        function twoDigitReverse(num) {
+            let c = Math.floor(num / 10);
+            let d = (num % 10);
+            let x = ((d * 10) + c);
+            return x;
+
+        }
+        document.write('The reverse of 94 is ' + twoDigitReverse(94))
+
+    </script>
+</body>
+
+</html>

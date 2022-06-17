@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Take marks in 5 subjects A,B,C,D,E and print out the average of marks from five subject marks.</h2>
+    <pre>
+ Constraints:
+
+0 <= marks (in each subject) <= 100
+
+Input:
+Marks in five subjects each in a new line. (Take a look at the example)
+Output:
+Average marks of the five subjects (For consistency, please round the result to two decimal places)
+
+Example:
+Input:
+45
+93
+23
+45
+65
+
+Output:
+54.2
+    </pre>
+    <script>
+        function avg(num1,num2,num3,num4,num5) {
+            let avj =(num1+num2+num3+num4+num5)/5
+            return avj;
+        }
+
+
+        document.write('The output is '+avg(45,93,23,45,65))
+    </script>
+</body>
+</html>
