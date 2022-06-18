@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q7</title>
+</head>
+<body>
+    <h1>Check whether the given number is equal to its reverse number or not</h1>
+
+    <script>
+          function rev(num) {
+            document.write('The input is ',num,'<br>')
+            let x=num;
+            let rev=0;
+            while (num!=0) {
+                let r=num%10;
+                rev=rev*10+r;
+                num=Math.floor(num/10)
+            }
+            if (x==rev) {
+                document.write('The num and rev num is equal ')
+            } else {
+                document.write('The num and rev num is not equal ')
+            }
+        }
+        rev(121)
+        document.write('<br><br>')
+        rev(153)
+    </script>
+</body>
+</html>
