@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3</title>
+</head>
+<body>
+    <h1>Write a program to read the first and last digit of a number</h1>
+
+
+    <script>
+        function f_l_digit(num) {
+            let x=num;
+            let rev=0;
+            while (num!=0) {
+                let r=num%10;
+                rev=rev*10+r;
+                num=Math.floor(num/10)
+            }
+            let a=x%10;
+            let f=rev%10;
+            document.write('The first digit is '+f +'<br>')
+            document.write('The last digit is '+a)
+
+        }
+        document.write('the input is 225469 <br> <br>')
+        f_l_digit(225469)
+        document.write('<br><br>the input is 7256975 <br> <br>')
+        f_l_digit(7256975)
+    </script>
+</body>
+</html>

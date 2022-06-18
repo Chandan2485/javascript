@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2</title>
+</head>
+<body>
+    <h1>Print the sum of all even numbers in a range from a to b. (Including a,b)</h1>
+
+
+    <script>
+        function even_num_sum(a,b) {
+            let sum=0
+            for (let index = a; index <=b; index++) {
+               if(index%2==0){
+                sum=sum+index;
+               }
+                
+            }
+            document.write(sum)
+        }
+        document.write('Sum of all the even no between 1 to 10 = ')
+        document.write(even_num_sum(1,10)+'<br>')
+        document.write('Sum of all the even no between 1 to 100 = ')
+        document.write(even_num_sum(1,100)+'<br>')
+    </script>
+</body>
+</html>

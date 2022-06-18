@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4</title>
+</head>
+<body>
+    <h1>Check whether the given number is an armstrong number or not. </h1>
+
+
+
+    <script>
+        function armstrong(num) {
+            let x=num
+            let count=0
+            while (x!=0) {
+                let r=x%10
+                count++
+                x=Math.floor(x/10)
+            }
+            // document.write(count)
+            let y=num;
+            let a=0;
+            while (y!=0) {
+                let b=y%10
+                a=a+b**count
+                y=Math.floor(y/10)
+               
+            }
+            if (num==a) {
+                document.write(num,' is a armstrong no')
+            } else {
+                document.write(num,' is not a armstrong no')
+            }
+        }
+
+        armstrong(153)
+        document.write('<br>')
+        armstrong(23654)
+    </script>
+</body>
+</html>

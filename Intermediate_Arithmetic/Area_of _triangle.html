@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Write a JavaScript program to find the area of a triangle where lengths of the three of its sides are given.</h1>
+
+    <script>
+        let a = prompt('enter 1st side of triangle')
+        let b = prompt('enter 2st side of triangle')
+        let c = prompt('enter 3st side of triangle')
+
+        let s=(a+b+c)/2;
+        let area=Math.sqrt(s*((s-a)*(s-b)*(s-c)))
+
+        alert('The Area of The Triangle is '+area)
+        alert('Thank You')
+    </script>
+
+</body>
+
+</html>

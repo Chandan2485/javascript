@@ -4,18 +4,16 @@
                                                  //1   print all number
 
 // let a = parseInt(process.argv[2])
-// for (var i = 1; i <= a; i++) {               for
+// for (var i = 1; i <= a; i++) {             //  for
 //     console.log(i)
 // }
 
-// let a = parseInt(process.argv[2])
-// let i = 1;                                   while
-// while (i <= a) {
-//     console.log(i)
-//     i++
-// }
-
-
+let a = parseInt(process.argv[2])
+let i = 1;                                  // while
+while (i <= a) {
+    console.log(i)
+    i++
+}
 
 
                                                  //2  even no

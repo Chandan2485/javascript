@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1</title>
+</head>
+<body>
+    <h1>Using a loop print all odd numbers up to and including n. Don’t include 0. </h1>
+
+    <script>
+        function odd_num(num) {
+            for (let index = 1; index <= num; index++) {
+                if(index%2!=0){
+                    document.write(index,', ')
+                }
+                
+            }
+        }
+        document.write('The Input is 10 = ')
+        document.write(odd_num(10)+"<br/>")
+        document.write('The Input is 11 = ')
+        document.write(odd_num(11)+"<br/>")
+        document.write('The Input is 10 = ')
+        document.write(odd_num(50)+"<br/>")
+    </script>
+</body>
+</html>
