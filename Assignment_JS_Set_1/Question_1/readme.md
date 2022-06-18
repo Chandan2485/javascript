@@ -1,1 +1,1 @@
-<img src="Assignment_JS_Set_1\Question_1\Screenshot (109).png" alt="">
+<img src="pic/Screenshot (109).png" alt="">
