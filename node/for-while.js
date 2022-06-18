@@ -8,12 +8,12 @@
 //     console.log(i)
 // }
 
-let a = parseInt(process.argv[2])
-let i = 1;                                  // while
-while (i <= a) {
-    console.log(i)
-    i++
-}
+// let a = parseInt(process.argv[2])
+// let i = 1;                                  // while
+// while (i <= a) {
+//     console.log(i)
+//     i++
+// }
 
 
                                                  //2  even no

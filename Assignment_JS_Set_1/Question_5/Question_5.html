@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q5</title>
+</head>
+
+<body>
+    <pre><h1>
+        Take two numbers and find product of all numbers between them 
+        that satisfy following condition (inclusive range): </h1> <h2> 
+        Condition 1 - Second last digit of number is 4
+        Condition 2 - Numbers should be even
+     </h2>
+    </pre>
+
+    <script>
+        function name(num1,num2) {
+        document.write('The input num are ',num1,', ',num2,'<br>')
+            let product = 1
+     for (var i = num1; i <=num2; i++) {
+       let c= Math.floor(i/10);
+       if(i%2==0 && c%10==4){
+           console.log(i);
+         product = product*i
+       }
+     }
+     document.write('The answer is ',product)
+     }
+     name(39,42)
+     document.write('<br><br>')
+     name(39,50)
+     document.write('<br><br>')
+     name(1,500)
+
+     
+    </script>
+</body>
+
+</html>
