@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time_Conversion</title>
+</head>
+<body>
+    <h1>Write a code to take time in seconds and convert it into hour, mins and seconds</h1>
+
+
+
+<script>
+    let seconds=prompt('enter seconds')
+
+    let hours =Math.floor(seconds/3600)
+  // console.log(hours)
+  let minutes = Math.floor((seconds%3600)/60)
+  // console.log(minutes)
+  let second = Math.floor(seconds%3600)%60
+  // console.log(second)
+    alert(hours+":"+minutes+":"+second)
+</script>
+</body>
+</html>
