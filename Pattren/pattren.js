@@ -94,9 +94,8 @@
 // Question 5.
 
 
-// let x=9;
+// let x=3;
 // let y=(x+1)/2
-
 //                                 //  for upper part
 // for(i=1;i<=y;i++){
 //   let a=i
@@ -116,9 +115,7 @@
 //   }
 //   console.log(str)
 // }
-
 //                                   // for lower part 
-
 // for(i=1;i<=y-1;i++){
 //   str=""
 //   for(j=1;j<=i;j++){
@@ -136,3 +133,41 @@
 //   }
 //   console.log(str)
 // }
+
+
+
+
+
+
+
+
+// function num(n, str=''){
+// if(n<=0){
+//   return str
+// }
+// str=str+` ${n} `
+// return num(n-1,str)
+
+// }
+// console.log(num(10))
+
+
+
+
+// function num(n){
+  // if(n<=0){
+  //   return 
+  // }
+  // console.log(n)
+  // return num(n-1)
+
+  // if(n>0){
+  //   console.log(n)
+  // }
+  // if(n>=0){
+  //   return num(n-1)
+  // }
+  
+  // }
+  // console.log(num(4))
+  
