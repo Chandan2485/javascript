@@ -44,7 +44,7 @@
 //       console.log(str)
 //     }
 //   }
-//   console.log(pattern(5))
+//   pattern(5)
 
 
 
@@ -195,6 +195,23 @@
 //   }
 // }
 //  console.log(evenDigits(10010))
+
+
+// or
+
+// function evenDigits(n){
+//     if(n==0){return "0"}
+//       let str=""
+//     while(n!=0){
+//       let a=n%10;
+//       if(a%2==0){
+//         str=`${a}`+str
+//       }
+//       n=Math.floor(n/10)
+//     }
+//     return (str=="")?"-1":str
+//     }
+//     console.log(evenDigits(100))
 
 
 // Q7. Print Pattren
