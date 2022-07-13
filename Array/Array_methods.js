@@ -128,3 +128,18 @@ let array=[0,1,2,3,4,5,6,7,8,9,10,11];
 // console.log(x)
 
 // ------------------------------------------------------------------------------------------------------------
+
+
+
+// let arr1=[1,2,3,4]
+// let arr2=[4,6,7,8]
+// // let x=i<(arr1.length+arr2.length)-1
+// let arr=[]
+// for(i=0;i<arr1.length;i++){
+//    arr[i]=arr1[i]
+// }
+
+// for(i=0;i<arr2.length;i++){
+//     arr[arr1.length+i]=arr2[i]
+//  }
+// console.log(arr)
