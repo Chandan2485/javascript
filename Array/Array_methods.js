@@ -127,19 +127,54 @@ let array=[0,1,2,3,4,5,6,7,8,9,10,11];
 // let x=array.toString('/')
 // console.log(x)
 
-// ------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------------------
+
+// Slice----------------------------------------> slice the array return a new array
+
+// let x=array.slice(1,6)
+// console.log(x)
+
+// let y=array.slice(6,1)
+// console.log(y)//---------------------------------->if start>end return empty array
+
+// let z=array.slice(1)
+// console.log(z)//---------------------------------->if put one value, take as a start value return all the element after that
+
+// let w=array.slice()
+// console.log(w)//---------------------------------->return whole the array
+
+// let v=array.slice(1,-6)
+// console.log(v)//--------------------------------->it also take -ve value return accordingly
+
+// ---------------------------------------------------------------------------------------------------------------------------------
+
+// splice--------------------------->delete old value and enter new value
+
+// let x=array.splice(1,6,20)
+// console.log(x)
+// console.log(array)
+
+// -------------------------------------------------------------------------------------------------------------------------------
+
+// sort
+
+// let arry1=[6,5,92,8,7,61,3,2,11,4,5,6,99,8,7,2,100]
+
+// let x= arry1.sort(function(a,b){
+//     return a-b
+// })                                   //incersing
+// console.log(x)
+
+// let y= arry1.sort(function(a,b){
+//     return b-a
+// })                                //decersing
+// console.log(y)
 
 
+// let arry2=['chandan','kiran','anup','manas','suman','pradip','abhijit']
 
-// let arr1=[1,2,3,4]
-// let arr2=[4,6,7,8]
-// // let x=i<(arr1.length+arr2.length)-1
-// let arr=[]
-// for(i=0;i<arr1.length;i++){
-//    arr[i]=arr1[i]
-// }
+// let x=arry2.sort()
+// console.log(x)
 
-// for(i=0;i<arr2.length;i++){
-//     arr[arr1.length+i]=arr2[i]
-//  }
-// console.log(arr)
+// ----------------------------------------------------------------------------------------------------------------------------------------
+
