@@ -198,7 +198,7 @@ let array=[0,1,2,3,4,5,6,7,8,9,10,11];
 // Map----------------------------------- 
 
 // let x=arry1.filter((num)=>{
-//     return num>3
+//     return num+3
 // })
 // console.log(x)
 // console.log(arry1)
@@ -207,3 +207,64 @@ let array=[0,1,2,3,4,5,6,7,8,9,10,11];
 //     return num%2==0
 // })
 // console.log(y)
+
+//-------------------------------------------------------------------------------------------------------------------------------
+
+// every------------------------------output is true/false
+
+// let arr=[5,6,3,2,5,4,7,8,9,65,8,7,4,5,6,3,2,1,3,65,4,7,8,9,65,2,3,1]
+// let x=arr.every(function(num){
+//     return num>5
+// })
+// console.log(x)
+
+// let arr1=[6,7,8,9,6,7,8,9,10]
+// let y=arr1.every(function(num){
+//     return num>5
+// })
+// console.log(y)
+
+// ---------------------------------------------------------------------------------------------------
+
+// some------------------------------output is true/false
+
+// let arr=[5,6,3,2]
+// let x=arr.some(function(num){
+//     return num>5
+// })
+// console.log(x)
+
+// let arr1=[1,2,3,4,5,1,2,3]
+// let y=arr1.every(function(num){
+//     return num>5
+// })
+// console.log(y)
+
+// ----------------------------------------------------------------------------------------------------
+
+// reduce-------------------------------------reduce to a single digit
+
+// let arr=[1,2,3,4,5,6,7,8,9]
+
+// let x=arr.reduce(function(pre,curr){
+//      return (pre+curr)
+// })                                      // -----pre=0, curr=arr[0]
+// console.log(x)
+
+// let y=arr.reduce(function(pre,curr){
+//     return (pre*curr)
+// })                                      // -----pre=1, curr=arr[0]
+// console.log(y)
+
+
+// let x1=arr.reduce(function(pre,curr){
+//     return (pre+curr)
+// },10)                                  // -----pre=10, curr=arr[0]
+// console.log(x1)
+
+// let y1=arr.reduce(function(pre,curr){
+//    return (pre*curr)
+// },100)                                 // -----pre=100, curr=arr[0]
+// console.log(y1)
+
+// ---------------------------------------------------------------------------------------------------------

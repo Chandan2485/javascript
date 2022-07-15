@@ -152,3 +152,22 @@
         //       return callbacks([4, 9, 25, 49]);
         //     }
         //     console.log(multiplyarr(multiply))
+
+
+// q10)
+
+// let i=0
+// let x='chandan kar is a good person'
+// let y=x.split(' ')
+// let z=y[i].split('').reverse().join('')
+// y[i]=z
+// console.log(y.join(' '))
+
+
+
+// let a='dog'
+// let b='god'
+// console.log((a.split('').sort().join('')===b.split('').sort().join(''))? "Anagram":"Not a Anagram")
+
+
+
