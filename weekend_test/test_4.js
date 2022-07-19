@@ -96,7 +96,7 @@
 //    console.log(more_choclates([1, 6, 7, 11]))
 
 
-// Q) Mary wants to distribute pens to all the kids in her neighbourhood.
+// Q6) Mary wants to distribute pens to all the kids in her neighbourhood.
 //    Can you help her by creating an array where all the kids except her neighbour get 'm' number of pens
 //    and her neighbour kids get 'm+5'. Please note she doesn't have a kid.
 //    Three numbers m ,n and pos. Here m is the number of pens, n is the number of houses with kids and 
@@ -121,7 +121,7 @@
 //   console.log(neighbours(5,10,0))
 
 
-// Q6)Given an integer array, and a number ‘n’, please return the sum of integers at odd position
+// Q7)Given an integer array, and a number ‘n’, please return the sum of integers at odd position
 //    and sum of integers at even position
 
 // function odd_even_position(arr) {
@@ -139,7 +139,7 @@
 //   console.log(odd_even_position([1,2,3]))
 
 
-// Q7) Given an integer array, find all the elements which are divisible by the index position in which they 
+// Q8) Given an integer array, find all the elements which are divisible by the index position in which they 
 //     are present. Consider the index of array starts from 1
 
 // function count_all_divisions(arr){
@@ -158,3 +158,51 @@
       
 //     }
 //     console.log(count_all_divisions([1, 5, 7, 8]))
+
+
+// Q9) Given an integer array, pos array and element array, change the elements in the integer array 
+//     based on the pos array and element array.
+//     Input Format
+//     Three input arrays, arr,pos,ele
+
+// function change_elements(arr,pos,ele){
+//     for(i=0;i<ele.length;i++){
+//       arr.splice(pos[i],1,ele[i])
+//     }
+//      return arr
+//    }
+//    console.log(change_elements([1, 5, 7, 8],[0],[4]))
+
+
+// Q10) Given an array, start index and an end index, square the elements in the given range and return the array
+
+// function square(arr,start,end){
+//     for(i=0;i<arr.length;i++){
+//       if((i >=start) && (i< end)){
+//         arr[i]=arr[i]**2
+//       }
+//     }
+//     return arr
+//   }
+//   console.log(square([1, 2, 3, 4, 5],1,3))
+
+// Q11) Given an integer array, return true if it can be used for binary search else return false
+
+// function binary_search(arr){
+//     let newarr1=[...arr]
+   
+//    let arra_d=arr.sort(function(a,b){return a-b})
+//    // let arrd_a=arr.sort(function(a,b){return b-a})
+ 
+//    for(i=0;i<newarr1.length;i++){
+//      if(newarr1[i]!=arra_d[i]){
+//          return false
+//      }
+//    }
+//  return true
+ 
+//  }
+//  console.log(binary_search([9,8,7,6,5]))
+
+
+// Q12)
