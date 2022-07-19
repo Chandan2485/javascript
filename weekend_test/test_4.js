@@ -94,3 +94,67 @@
 //      return arr
 //    }
 //    console.log(more_choclates([1, 6, 7, 11]))
+
+
+// Q) Mary wants to distribute pens to all the kids in her neighbourhood.
+//    Can you help her by creating an array where all the kids except her neighbour get 'm' number of pens
+//    and her neighbour kids get 'm+5'. Please note she doesn't have a kid.
+//    Three numbers m ,n and pos. Here m is the number of pens, n is the number of houses with kids and 
+//    pos is where Mary lives.
+
+// function neighbours(m,n,pos){
+//     let arr=[]
+//     for(i=0;i<n;i++){
+//       arr[i]=m
+//     } 
+//   if(pos==0){
+//       arr.splice(pos,2,0,(m+5))
+//     }
+//    else if(pos==n-1){
+//      arr.splice((pos-1),2,(m+5),0)
+//    }
+//   else{
+//     arr.splice((pos-1),3,(m+5),0,(m+5))
+//   }
+//   return arr
+//   }
+//   console.log(neighbours(5,10,0))
+
+
+// Q6)Given an integer array, and a number ‘n’, please return the sum of integers at odd position
+//    and sum of integers at even position
+
+// function odd_even_position(arr) {
+//     let oddsum = 0, evensum = 0;
+//     for (i = 0; i < arr.length; i++) {
+//       if (i% 2 == 0) {
+//         evensum += arr[i]
+//       }
+//       else {
+//         oddsum += arr[i]
+//       }
+//     }
+//     return [oddsum,evensum]
+//   }
+//   console.log(odd_even_position([1,2,3]))
+
+
+// Q7) Given an integer array, find all the elements which are divisible by the index position in which they 
+//     are present. Consider the index of array starts from 1
+
+// function count_all_divisions(arr){
+
+//     let arra=arr.filter(function(a,i){
+//       return (a%(i+1)==0)
+//     })
+//     return arra.length
+      
+//     // let count=0;
+//     //   for(i=0;i<arr.length;i++){
+//     //     if(arr[i]%(i+1)==0){count++}
+//     //   }
+//     //   return count
+    
+      
+//     }
+//     console.log(count_all_divisions([1, 5, 7, 8]))
