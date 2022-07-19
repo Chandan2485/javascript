@@ -205,4 +205,72 @@
 //  console.log(binary_search([9,8,7,6,5]))
 
 
-// Q12)
+// Q12)Given an integer array, find all the elements which are divisible by n and return the count
+
+// function count_all_divisions(arr,n){
+
+    // let count = 0;
+    // for(i=0;i<arr.length;i++){
+    //   // console.log(i)
+    //    if(arr[i]%n==0){
+    //      count++
+    //    }
+    // }
+    // return count
+  
+  
+  
+  // return arr.filter(function(a){return (a%n==0)}).length
+    
+    
+//   }
+//   console.log(count_all_divisions([1,5,7,8],1))
+
+
+// Q13) Given an array, return the descending order
+
+// function descending_order(arr){
+// let c=0,v=0
+//   for(i=0;i<arr.length;i++){
+//     v++
+//     // console.log(arr[i])
+//     // console.log('  ')
+//   for(j=i+1;j<=arr.length;j++){
+//     c++
+//     if(arr[i] < arr[j]){
+//       temp = arr[i]
+//       arr[i]=arr[j]
+//       arr[j]=temp
+//       // console.log(arr[i])
+//        // console.log('  ')
+//       // console.log(arr)
+//     }
+//   }
+//   }
+//   console.log(c,v)
+//   return arr
+// }
+// console.log(descending_order([4, 3, 6,1,56,78,12,27,11,10,100]))
+// exports.descending_order = descending_order
+
+
+// return arr.sort(function(a,b){return b-a})
+
+
+// let arr=[4, 3, 6,1,56,78,12,27,11,10,100]
+// let ans=[0]
+//   c=0,v=0;
+//   for(i=0;i<arr.length;i++){
+//     v++
+//   for(j=0;j<=ans.length;j++){
+//     c++
+//     if(arr[i]>=ans[j]){
+//       ans.splice(j,0,arr[i])
+//       break;
+//     }
+//   }
+//   }
+//   ans.pop()
+// console.log(c,v)
+//   // return ans 
+// console.log(ans)
