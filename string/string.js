@@ -58,4 +58,44 @@
 //   console.log(removeSpace(" air campus "))
 
 
+// Q7)  Given a string, replace the first occurrences of Ram with Shyam
+
+// function ramShyam(str){
+// return str.replace(/ram/i,'Shyam')
+//  }
+// console.log(ramShyam('Ram owns a dog. Ram likes animals'))
+
+
+// Q8) Given a string, replace all the occurrences of Ram with Shyam
+
+// function ramShyam(str){
+// return str.replace(/ram/ig,'Shyam')
+//  }
+// console.log(ramShyam('Ram owns a dog. Ram likes animals'))
+
+
+// Q9)Given a strings, return all the characters of string separated by comma (,)
+
+// function commaSep(str){
+    //  let strans=''
+    // for(i=0;i<str.length;i++){
+    //   strans=strans+','+str[i]
+    // }
+    //  return strans.slice(1)
+   
+   
+//    return str.split('').join(',')
+   
+     
+//    }
+//    console.log(commaSep('aircampus'))
+
+
+
+// Q10) Given 3 strings, join string1 and string2 separated by string3. Return the final string.
+
+// function stringSep(str1, str2, str3){
   
+//     return str1.split(' ').concat(str2.split(' ')).join(` ${str3} `)
+//   }
+//   console.log(stringSep('air', 'campus', '-'))
