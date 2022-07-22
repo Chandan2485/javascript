@@ -209,17 +209,27 @@
 
 // 2^n                                             12
 
-function power(n,i){
-    if(i<=n){
-         p=2**i
-    return (power(n,i+1))
-    }
+// function power(n,i){
+//     if(i<=n){
+//          p=2**i
+//     return (power(n,i+1))
+//     }
    
-    return p
+//     return p
     
+// }
+// console.log(power(6,0))
+
+
+
+
+let num=[1,2,3,4,5]
+
+function productofarr(arr){
+
+    if(arr.length>1){
+        product=
+    }
 }
-console.log(power(6,0))
 
-
-
-
+console.log(productofarr())

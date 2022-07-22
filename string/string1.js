@@ -68,3 +68,56 @@
     
 //     }
 //     console.log(reverse('the sky is blue'))
+
+
+// Q6)Given a string, capitalize the first letter of each word.
+
+// function capitalization(str){
+//   let strans='';
+  
+//     let first=str[0].toUpperCase()
+//     strans=first
+  
+//     for(i=1;i<str.length;i++){
+//       if(str[i]==' '){
+//          strans=strans+' '+str[i+1].toUpperCase()
+//         i=i+1
+//       }
+//       else{
+//         strans=strans+str[i]
+//       }
+//     }
+//     return strans
+//   }
+//   console.log(capitalization('capitalize every word'))
+
+
+
+// Q7)  Given a string, return the middle character, if the string length is odd, else return the middle two characters.
+
+
+// function middleChar(str){
+//   let len=str.length
+//     if(len % 2!=0){
+//       return str[(len-1) / 2]
+//     }
+//     else{
+//       return str.slice((len/2)-1,(len/2)+1)
+//     }
+// }
+// console.log(middleChar('test'))
+
+
+
+// Q8) Given a string which contains an email address, return true if the given email is valid, else return false.
+
+
+// function validEmail(str){
+//   if(str.endsWith('@aircampus.in')){
+//     return true
+//   }
+//   else{
+//     return false
+//   }
+// }
+// console.log(validEmail('admin@aircampus'))
