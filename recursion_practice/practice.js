@@ -247,4 +247,38 @@
 
 
 
+// function flate(arr, ans=[]){
+//     // console.log(arr)
+//     for(i=0;i<arr.length;i++){
+//         if(Array.isArray(i)){
+//        return  flate(arr[i],ans)
+            
+//         }
+//         else{
+//             ans.push(arr[i])
+//             // console.log(ans)
+//             // console.log(i)
+//         }
+//     }
+//     // return ans
+// }
 
+// console.log(flate([1,2,[4,5]]))
+
+
+
+
+function flate(arr){
+    let flatearr=[]
+    for(i=0;i<arr.length;i++){
+        if(Array.isArray(i)){
+       flatearr=[...flatearr,...flate(arr[i])]
+        }
+        else{
+            flatearr.push(arr[i])
+        }
+    }
+    return flatearr
+}
+
+console.log(flate([1,2,[4,5]]))
