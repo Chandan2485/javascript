@@ -45,15 +45,59 @@ let arr=[2,3,8,3,9,7,3]
 
 // console.log(filterarr)
 
-let n=5;
+// let n=5;
 
-function getfact(num,fact=1){
+// function getfact(num,fact=1){
 
-if(num>0){
-    fact=fact*num
-    return getfact(num-1,fact)
-}
+// if(num>0){
+//     fact=fact*num
+//     return getfact(num-1,fact)
+// }
 
-return fact
-}
-console.log(getfact(5))
+// return fact
+// }
+// console.log(getfact(5))
+
+
+// Given an integer array, find all the elements which are divisible by n and return the count
+
+// function count_all_divisions(arr,n){
+
+    // let count = 0;
+    // for(i=0;i<arr.length;i++){
+    //   // console.log(i)
+    //    if(arr[i]%n==0){
+    //      count++
+    //    }
+    // }
+    // return count
+  
+  
+  
+  // return arr.filter(function(a){return (a%n==0)}).length
+    
+    
+//   }
+//   console.log(count_all_divisions([1,5,7,8],1))
+
+
+
+// Given an array, return the descending order
+
+// function descending_order(arr){
+//     let c=0,v=0
+//       for(i=0;i<arr.length;i++){
+//         v++
+//       for(j=i+1;j<=arr.length;j++){
+//         c++
+//         if(arr[i] < arr[j]){
+//           temp = arr[i]
+//           arr[i]=arr[j]
+//           arr[j]=temp
+//         }
+//       }
+//       }
+//       console.log(c,v)
+//       return arr
+//     }
+//     console.log(descending_order([4, 3, 6,1,56,78,12,27,11,10,100]))
