@@ -150,3 +150,50 @@
 
 // }
 // console.log(bubbleSort([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+// console.log(!0,1)
+// console.log(!false,2)
+// console.log(!null,3)
+// console.log(!undefined,4)
+// console.log(!-0,5)
+// console.log(!0n,6)
+// console.log(!NaN,7)
+// console.log(!"",8)
+
+// console.log(!true,1)
+// console.log(!{},2)
+// console.log(![],3)
+// console.log(!42,4)
+// console.log(!-42,5)
+// console.log(!'0',6)
+// console.log(!'false',7)
+// console.log(!12n,8)
+// console.log(!3.14,9)
+// console.log(!-3.14,10)
+// console.log(!Infinity,11)
+// console.log(!-Infinity,12)
+
+
+// console.log(typeof (0),1)
+// console.log(typeof (-NaN),8)
+// console.log(typeof (Infinity),8)
+// console.log(typeof (undefined),7)
+// console.log(typeof (''),2)
+// console.log(typeof (true),3)
+// console.log(typeof ([]),4)
+// console.log(typeof ({}),5)
+// console.log(typeof (null),6)
+
+
+// console.log(NaN*NaN)
+// var x=9
+
+
+// console.log(Infinity)
+// console.log(null)
+// console.log([])
+// console.log({})
+// console.log(undefined)
+
+// console.log(0 && 2 && '')
