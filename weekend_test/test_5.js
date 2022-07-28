@@ -36,7 +36,7 @@
 //     console.log(`Name is ${key} and age is ${obj[key]}`)
 // }
 
-let arr=[2,3,8,3,9,7,3]
+// let arr=[2,3,8,3,9,7,3]
 
 
 // let filterarr=arr.filter(function(num){
@@ -101,3 +101,52 @@ let arr=[2,3,8,3,9,7,3]
 //       return arr
 //     }
 //     console.log(descending_order([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+
+// function linearSearch(arr,target){
+//   for(i=0;i<arr.length;i++){
+//     if(arr[i]==target){return i}
+//   }
+//   return -1
+// }
+// console.log(linearSearch([4, 3, 6,1,56,78,12,27,11,10,100],11))
+
+
+// function binarySearch(arr,target){
+// arr.sort((a,b)=>{return a-b})
+// console.log(arr)
+
+// let right=arr.length-1,left=0
+// while(right>=left){
+// mid=Math.floor((left+right)/2)
+// if(arr[mid]==target){return mid}
+// else if(arr[mid]>target){right=(mid-1)}
+// else {left=(mid+1)}
+// }
+// return -1
+// }
+// console.log(binarySearch([4, 3, 6,1,56,78,12,27,11,10,100],11))
+
+
+
+// function bubbleSort(arr){
+// for(i=0;i<arr.length-1;i++){
+//   for(j=0;j<arr.length-i-1;j++){
+//     if(arr[j]>arr[j+1]){
+//       let temp=arr[j]
+//       arr[j]=arr[j+1]
+//       arr[j+1]=temp
+//     }
+//   }
+// }
+// return arr
+// }
+// console.log(bubbleSort([4, 3, 6,1,56,78,12,27,11,10,100,2]))
+
+
+
+// function bubbleSort(arr){
+
+// }
+// console.log(bubbleSort([4, 3, 6,1,56,78,12,27,11,10,100]))
