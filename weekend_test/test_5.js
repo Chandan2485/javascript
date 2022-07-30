@@ -196,4 +196,259 @@
 // console.log({})
 // console.log(undefined)
 
-// console.log(0 && 2 && '')
+// console.log(1 && 2 && '')
+
+
+// function abc(num,target,n){
+// if(n==0){
+//   return -1
+// }
+// if(num[n]==target){
+//   return n
+// }
+// return abc(num,target,n-1)
+// }
+// console.log(abc([1,2,3,4,5,6],3,7))
+
+
+
+// function lsearce(arr,target){
+
+//   for(i=0;i<arr.length;i++){
+//     if(arr[i]==target){
+//       return i
+//     }
+//   }
+//   return -1
+// }
+// console.log(lsearce([4, 3, 6,1,56,78,12,27,11,10,100],1))
+
+
+// function binary(arr,target){
+
+//   let left=0,right=arr.length-1
+//   while(right>=left){
+//     let mid=Math.floor((left+right)/2)
+//     if(arr[mid]==target){return mid}
+//     else if(arr[mid]>target){right=mid-1}
+//     else{left=mid+1}
+//   }
+//   return -1
+// }
+// console.log(binary([1,2,3,4,5,6,7,8,9,10],11))
+
+
+// function bubbleSort(arr){
+
+//   for(i=0;i<arr.length;i++){
+//     for(j=0;j<arr.length;j++){
+//       if(arr[j]>arr[j+1]){
+//         let temp=arr[j]
+//         arr[j]=arr[j+1]
+//         arr[j+1]=temp
+//       }
+//     }
+//   }
+// return arr
+// }
+// console.log(bubbleSort([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+
+// function slection(arr){
+// for(i=0;i<arr.length;i++){
+//  let min=i
+//  for(j=i+1;j<arr.length;j++){
+//     if(arr[j]>arr[min]){
+//       min=j
+//     }
+//  }
+//  if(i!=min){
+//     let temp=arr[i]
+//     arr[i]=arr[min]
+//     arr[min]=temp
+//  }
+// }
+// return arr
+// }
+// console.log(slection([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+
+// function linearSearch(arr,target){
+//  for(let i=0;i<arr.length;i++){
+//   if(arr[i]==target){
+//     return i
+//   }
+//  }
+//  return -1
+// }
+// console.log(linearSearch([1,5,4,8,9,7,3,4,5,6,5,4,62,8,9],7))
+
+
+
+// function binarySearch(arr,target){
+//  let left=0,right=arr.length-1
+
+//  while(right>=left){
+//   let mid=Math.floor((left+right)/2)
+//   if(arr[mid]==target){return mid}
+//   else if(arr[mid]>target){right=mid-1}
+//   else{left=mid+1}
+//  }
+//  return -1
+// }
+// console.log(binarySearch([1,2,3,4,5,6,7,8,9],5))
+
+
+
+// function bubbleSort(arr){
+// for(i=0;i<arr.length-1;i++){
+//   for(j=0;j<arr.length-i-1;j++){
+//     if(arr[j]>arr[j+1]){
+//       let temp=arr[j]
+//       arr[j]=arr[j+1]
+//       arr[j+1]=temp
+//     }
+//   }
+// }
+// return arr
+// }
+// console.log(bubbleSort([1,5,4,8,9,7,3,4,5,6,2,4,62,8,9]))
+
+
+
+// function slection(arr){
+// for(i=0;i<arr.length;i++){
+//  let min=i
+//  for(j=i+1;j<arr.length;j++){
+//     if(arr[j]<arr[min]){
+//       min=j
+//     }
+//  }
+//  if(i!=min){
+//     let temp=arr[i]
+//     arr[i]=arr[min]
+//     arr[min]=temp
+//  }
+// }
+// return arr
+// }
+// console.log(slection([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+// function insertionsort(arr){
+//   for(i=0;i<arr.length;i++){
+//     let temp =arr[i]
+//     let j=i-1
+//     while(j>=0 && arr[j]>temp){
+//       arr[j+1]=arr[j]
+//       j--
+//     }
+//     arr[j+1]=temp
+//   }
+//   return arr
+// }
+// console.log(insertionsort([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+// function lnearsearch(arr,target){
+//   for(let i=0;i<arr.length;i++){
+//     if(arr[i]==target){
+//       return i
+//     }
+//   }
+//   return -1
+// }
+// console.log(lnearsearch([4, 3, 6,1,56,78,12,27,11,10,100],15))
+
+
+// function binarySearch(arr,target){
+//   let left =0,right=arr.length-1;
+
+//   while(right>=left){
+//     let mid=Math.floor((left+right)/2)
+
+//     if(arr[mid]==target) return mid
+//     else if(arr[mid]>target) right=mid-1
+//     else left=mid+1
+//   }
+//   return -1
+// }
+// console.log(binarySearch([1,2,3,4,5,6,7,8,9,10],7))
+
+
+
+// function bubbleSort(arr){
+// for(i=0;i<arr.length-1;i++){
+//   for(j=0;j<arr.length-1-i;j++){
+//     if(arr[j]>arr[j+1]){
+//       let temp=arr[j]
+//       arr[j]=arr[j+1]
+//       arr[j+1]=temp
+//     }
+//   }
+// }
+// return arr
+// }
+// console.log(bubbleSort([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+
+
+// function slectionsort(arr){
+// for(i=0;i<arr.length;i++){
+//   let min=i
+//   for(j=i+1;j<arr.length;j++){
+//     if(arr[j]<arr[min]){
+//       min=j
+//     }
+//   }
+//   if(i!=min){
+//     let temp=arr[i]
+//     arr[i]=arr[min]
+//     arr[min]=temp
+//   }
+// }
+// return arr
+// }
+// console.log(slectionsort([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+
+// function insertionsort(arr){
+//   for(i=1;i<arr.length;i++){
+//     let temp=arr[i]
+//     let j=i-1
+//     while(j>=0 && arr[j]>temp){
+//       arr[j+1]=arr[j]
+//       j--
+//     }
+//     arr[j+1]=temp
+//   }
+//   return arr
+// }
+// console.log(insertionsort([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+// function Student(fname,lname,course,age,date,mob,email){
+//       this.firstname = fname,
+//       this.lastname =lname,
+//       this.mobile_no=mob,
+//       this.email_id=email,
+//       this.age=age,
+//       this.course=course,
+//       this.date=date,
+//       this.fullname=function(){
+//         return this.firstname+" "+this.lastname
+//       },
+//       this.adress=function(){
+//         return `mobile no:- ${this.mobile_no} ;email id:- ${this.email_id} ; city:-${this.city}`
+//       }
+
+// }
+// let Student2= new Student("chan","karumar","MEAN",26,"May-2022",870125460,"zyz@gmail.com")
+// let Student1= new Student("chandan","kar","MERN",25,"May-2022",870125460,"zyz@gmail.com")
+// Student1.city='kolkata'
+// console.log(Student2['vbd'])
+// // Student1.fullname()
