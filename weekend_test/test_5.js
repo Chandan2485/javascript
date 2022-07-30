@@ -431,6 +431,10 @@
 // console.log(insertionsort([4, 3, 6,1,56,78,12,27,11,10,100]))
 
 
+
+
+
+
 // function Student(fname,lname,course,age,date,mob,email){
 //       this.firstname = fname,
 //       this.lastname =lname,
@@ -447,8 +451,59 @@
 //       }
 
 // }
+
+
 // let Student2= new Student("chan","karumar","MEAN",26,"May-2022",870125460,"zyz@gmail.com")
 // let Student1= new Student("chandan","kar","MERN",25,"May-2022",870125460,"zyz@gmail.com")
-// Student1.city='kolkata'
-// console.log(Student2['vbd'])
-// // Student1.fullname()
+
+// Student2.city='kolkata'
+
+ 
+
+ //                                                 // get value,key,both
+
+// console.log(Object.keys(Student1))
+// console.log(Object.values(Student1))
+// console.log(Object.entries(Student1))
+// console.log('age' in Student1)    
+
+ //                                                  // loops
+
+// for(let key in Student1){
+//     console.log(key)
+// }
+
+// for(let key in Student1){
+//   console.log(Student1[key])
+// }
+
+// for(let key in Student1){
+//   console.log(key+" : "+Student1[key])
+// }
+
+// let c=0
+// for(let key in Student1){
+//     c++
+// }
+// console.log(c)
+
+
+  ////                                              //   copy
+
+// let obj={
+//   fname: 'chandan',
+//   lname : 'kar',
+//   age : 26
+// }
+
+// let copy1obj={...obj}                          // shallow copy,single layer copy
+// console.log(copy1obj)
+// console.log(copy1obj.age)
+
+
+// let copy1obj=JSON.stringify(obj)                  // Deep Copy
+// // console.log(copy1obj)
+// copy1obj=JSON.parse(copy1obj)
+// console.log(copy1obj)
+
+
