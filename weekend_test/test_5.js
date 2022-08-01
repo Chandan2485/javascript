@@ -507,3 +507,287 @@
 // console.log(copy1obj)
 
 
+// function linearSearch(arr,target){
+
+//   for(let i=0;i<arr.length;i++){
+//     if(arr[i]==target) return i
+//   }
+//   return -1
+// }
+
+// console.log(linearSearch([4, 3, 6,1,56,78,12,27,11,10,100],101))
+
+
+// function binarySearch(arr,target){
+// let left=0,right=arr.length-1
+// while(right>=left){
+//  let mid=Math.floor((right+left)/2)
+//  if(arr[mid]==target) return mid
+//  else if(arr[mid]>target) right=mid-1
+//  else left=mid+1
+// }
+// return -1
+// }
+// console.log(binarySearch([1,5,9,10,15,19,22,28,31,35,39,41,47],41))
+
+
+// function bubbleSort(arr){
+//   for(i=0;i<arr.length;i++){
+//     for(j=0;j<arr.length;j++){
+//       if(arr[j]>arr[j+1]){
+//         let temp=arr[j]
+//         arr[j]=arr[j+1]
+//         arr[j+1]=temp
+//       }
+//     }
+//   }
+//   return arr
+// }
+// console.log(bubbleSort([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+// function slectionsort(arr){
+//   for(i=0;i<arr.length-1;i++){
+//     let min=i
+//     for(j=i+1;j<arr.length;j++){
+//       if(arr[j]<arr[min]){
+//         min=j
+//       }
+//     }
+  
+//   if(i!=min){
+//     let temp=arr[i]
+//     arr[i]=arr[min]
+//     arr[min]=temp
+//   }
+// }
+//   return arr
+// }
+// console.log(slectionsort([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+
+// function insertionsort(arr){
+//   for(i=1;i<arr.length;i++){
+//     let min=arr[i]
+//     let j=i-1
+//     while(j>=0 && arr[j]>min){
+//       arr[j+1]=arr[j]
+//       j--
+//     }
+//     arr[j+1]=min
+//   }
+//   return arr
+// }
+// console.log(insertionsort([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+// Object
+
+// constructor methord
+
+// function Creatstudent(fname,lname,age,cours){
+//     this.firstname=fname,
+//     this.lastname=lname,
+//     this.age=age,
+//     this.course=cours,
+//     this.fullname=function(){
+//       return this.firstname +' '+this.lastname
+//     }
+// }
+
+// let Student1=new Creatstudent('chandan','kar',26,'MERN')
+// let Student2=new Creatstudent('kiren','kumar',26,'MEAN')
+
+// console.log(Student1)
+// console.log(Student1['firstname'])
+// console.log(Student1.fullname())
+// Student1.dist='bankura'
+// Student1.city='kamalpur'
+// Student1.pin=722137
+// Student1.adress=function(){
+//   return this.dist+' '+this.city+' '+this.pin
+// }
+
+// Student1.adress={
+//   dist:'bankura',
+//   city:'kamalpur',
+//   pin:722137
+// }
+// console.log(Student1)
+
+// console.log(Object.keys(Student1))
+// console.log(Object.values(Student1))
+// console.log(Object.entries(Student1))
+// console.log('age' in Student1)
+
+// for(let key in Student1){
+//     console.log(key)
+// }
+
+// for(let key in Student1){
+//     console.log(Student1[key])
+// }
+
+// for(let key in Student1){
+//   console.log(key+' '+Student1[key])
+// }
+
+// let c=0
+// for(let key in Student1){
+//   c++
+// }
+// console.log(c)
+
+
+// shallow copy
+
+// let copy={...Student1}
+// console.log(copy)
+
+
+
+// deep copy
+
+// let copy=JSON.stringify(Student1)
+//   console.log(copy)
+//     copy=JSON.parse(copy)
+//   console.log(copy.fullname())
+
+
+
+// let obj={
+//   fullname:'chandan',
+//   class1:"engineering",
+//   pro: 'dev',
+//   age:24
+// }
+
+// // console.log(obj)
+// let {pro, ...rest} = obj
+// console.log(pro,rest)
+
+
+// let nums=[1,2,3,4,6,[2,3,77]]
+
+// let [x,y,...res]=nums
+// console.log(x,y,res)
+
+// console.log(nums.flat(1))
+
+
+// console.log(typeof ('')) 
+
+// ------------------------------------------------------------------------------------------------------------------------------
+
+// function linearSearch(arr,target){
+// for(i=0;i<arr.length;i++){
+//   if(arr[i]==target){
+//      return i
+//   }
+// }
+// return -1
+// }
+// console.log(linearSearch([4, 3, 6,1,56,78,12,27,11,10,100],10))
+
+
+// function binarySearch(arr,target){
+// let left=0,right=arr.length-1
+// while(right>=left){
+//   let mid=Math.floor((left+right)/2)
+// if(arr[mid]==target) return mid
+// else if(arr[mid]>target) right=mid-1
+// else left =mid+1
+// }
+// return-1
+// }
+// console.log(binarySearch([1,2,3,4,5,6,7,8,9,10],8))
+
+
+// function bubbleSort(arr){
+//   for(i=0;i<arr.length;i++){
+//     for(j=0;j<arr.length;j++){
+//       if(arr[j]>arr[j+1]){
+//         let temp=arr[j]
+//         arr[j]=arr[j+1]
+//         arr[j+1]=temp
+//       }
+//     }
+//   }
+//   return arr
+// }
+// console.log(bubbleSort([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+// function slectionsort(arr){
+//   for(i=0;i<arr.length;i++){
+//       let min=i
+//   for(j=i+1;j<arr.length;j++){
+//     if(arr[j]<arr[min]){
+//     min=j
+//     }
+//   }
+//   if(i!=min){
+//     let temp=arr[i]
+//     arr[i]=arr[min]
+//     arr[min]=temp
+//   }
+//   }
+//   return arr
+// }
+// console.log(slectionsort([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+
+// function insertionsort(arr){
+// for(i=1;i<arr.length;i++){
+//     let temp=arr[i]
+//     let j=i-1
+//     while(j>=0 && arr[j]>temp){
+//       arr[j+1]=arr[j]
+//       j--
+//     }
+//     arr[j+1]=temp
+// }
+// return arr
+// }
+// console.log(insertionsort([4, 3, 6,1,56,78,12,27,11,10,100]))
+
+// -----------------------------------------------------------------------------------------------------------------------------------
+
+// factory mathord
+
+// function student(fname,lname,age){
+//       return {
+//         firstname : fname,
+//         lastname : lname,
+//         age : age
+//       }
+// }
+
+// let stu1=student('chandan','kar',26)
+// console.log(stu1['firstname'])
+
+
+// function fact(num){
+//   let fa=1
+//   for(i=1;i<=num;i++){
+//     // console.log(i)
+//    fa=fa*i
+//       // console.log(fa)
+//   }
+//   return fa
+// }
+// console.log(fact(5))
+
+
+// function  fact (num){
+//   if(num==1){
+//     return 1
+//   }
+//   return num * fact(num-1)
+// }
+
+// console.log(fact(4))
+
+
+// console.log({a:1}==={a:1})
